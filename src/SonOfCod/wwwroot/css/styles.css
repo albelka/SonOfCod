@@ -1,5 +1,5 @@
 ﻿body {
-  
+  background-image: url();
 }
 
 .navbar-brand img {
@@ -8,4 +8,8 @@
 
 h1 {
     text-align: center;
+}
+
+div.boat img {
+ align-self:center;
 }
