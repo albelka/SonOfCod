@@ -28,6 +28,8 @@ namespace SonOfCod.Controllers
             _signInManager = signInManager;
             _db = db;
         }
+
+        //public RolesController() { }
         // GET: /<controller>/
         [AllowAnonymous]
         public IActionResult Index()
