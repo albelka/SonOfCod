@@ -3,27 +3,27 @@
     ViewData["Title"] = "Create Role";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-@using SonOfCod.Models
-@Model Newsletter
+
+@model IEnumerable<SonOfCod.Models.Newsletter>
 
 
 
 
-@if (User.IsInRole("Admin"))
+@*@if (User.IsInRole("Admin"))
 {
    <h3>Current subscribers</h3>
     <div>
         @foreach (var subscriber in Model)
         {
             <p>
-                @subscriber.Email          
+                @Html.DisplayFor(model => subscriber.Email)          
             </p>
         }
     </div>
-}
-else
-{
+}*@
+@*else
+{*@
     <h2>Sign up for our newsletter to receive free information and updates about our fish.</h2>
 
     <a asp-action="create">Sign Up</a>
-}
+@*}*@
