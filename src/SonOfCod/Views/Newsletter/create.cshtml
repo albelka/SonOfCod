@@ -5,7 +5,9 @@
 
 @model SonOfCod.Models.Newsletter
 
-<form method="post" asp-action="Create" asp-controller="Newsletter" enctype="multipart/form-data">
+@using (Html.BeginForm())
+{
+
     @Html.Label("Please enter your email address:")
     @Html.EditorFor(model => model.Email, new { required = "required" })
 
@@ -17,5 +19,6 @@
 
 
     <input type="submit" value="add" class="btn btn-info" />
-</form>
+}
+
 
