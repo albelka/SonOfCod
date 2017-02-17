@@ -1,5 +1,5 @@
 ﻿body {
-  background-image: url();
+ 
 }
 
 .navbar-brand img {
@@ -11,5 +11,7 @@ h1 {
 }
 
 div.boat img {
- align-self:center;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
 }
