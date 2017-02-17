@@ -1,5 +1,29 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿
 @{
+    ViewData["Title"] = "Create Role";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using SonOfCod.Models
+@Model Newsletter
+
+
+
+
+@if (User.IsInRole("Admin"))
+{
+   <h3>Current subscribers</h3>
+    <div>
+        @foreach (var subscriber in Model)
+        {
+            <p>
+                @subscriber.Email          
+            </p>
+        }
+    </div>
+}
+else
+{
+    <h2>Sign up for our newsletter to receive free information and updates about our fish.</h2>
+
+    <a asp-action="create">Sign Up</a>
 }

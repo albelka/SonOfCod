@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Newsletter Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model SonOfCod.Models.Newsletter
+
+<form method="post" asp-action="Create" asp-controller="Newsletter" enctype="multipart/form-data">
+    @Html.Label("Please enter your email address:")
+    @Html.EditorFor(model => model.Email, new { required = "required" })
+
+    @Html.Label("Please enter your business:")
+    @Html.EditorFor(model => model.BusinessType)
+
+    @Html.Label("Please enter your name:")
+    @Html.EditorFor(model => model.PurchaserName)
+
+
+    <input type="submit" value="add" class="btn btn-info" />
+</form>
+
