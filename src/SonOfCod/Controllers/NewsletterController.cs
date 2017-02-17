@@ -14,10 +14,14 @@ namespace SonOfCod.Controllers
     {
         private readonly ApplicationDbContext _db;
 
-        public NewsletterController(ApplicationDbContext db)
-        {     
-            _db = db;
-        }
+        //public NewsletterController(ApplicationDbContext db)
+        //{
+        //    _db = db;
+        //}
+
+            public NewsletterController()
+        { }
+
 
 
         public IActionResult Index()

@@ -196,4 +196,5 @@
 -r:"c:\Users\epicodus\documents\visual studio 2015\Projects\SonOfCod\src\SonOfCod\bin\Debug\netcoreapp1.0\SonOfCod.dll"
 "c:\Users\epicodus\documents\visual studio 2015\Projects\SonOfCod\SonOfCod.Tests\Class1.cs"
 "c:\Users\epicodus\documents\visual studio 2015\Projects\SonOfCod\SonOfCod.Tests\ControllerTests\MarketingControllerTest.cs"
+"c:\Users\epicodus\documents\visual studio 2015\Projects\SonOfCod\SonOfCod.Tests\ControllerTests\NewsletterControllerTest.cs"
 "c:\Users\epicodus\documents\visual studio 2015\Projects\SonOfCod\SonOfCod.Tests\Properties\AssemblyInfo.cs"
