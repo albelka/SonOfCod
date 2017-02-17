@@ -8,7 +8,7 @@
 @Html.ActionLink("Create New Role", "Create") | @Html.ActionLink("Role List", "Index")
 <hr />
 
-<h2>Role Add to User</h2>
+<h3>Add Role to User</h3>
 
 @using (Html.BeginForm("AddRoleToUser", "Roles"))
 {
@@ -21,7 +21,7 @@
 
     </p>
 
-    <input type="submit" value="Save" />
+    <input type="submit" value="Save" class="btn btn-info" />
 }
 <hr />
 <h3>Get Roles for a User</h3>
@@ -30,7 +30,7 @@
     @Html.AntiForgeryToken()
     <p>
         Username : @Html.TextBox("UserName")
-        <input type="submit" value="Get Roles for this User" />
+        <input type="submit" value="Get Roles for this User" class="btn btn-info" />
     </p>
 }
 
@@ -61,5 +61,5 @@
 
     </p>
 
-    <input type="submit" value="Delete this user from Role" />
+    <input type="submit" value="Delete this user from Role"  class="btn btn-info"/>
 }
