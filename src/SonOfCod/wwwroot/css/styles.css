@@ -30,6 +30,7 @@ div.marketingCard {
 }
 
 .marketingTitle {
+    text-align: center;
     background-color: darkblue;
     color: lightgreen;
     font-family: cursive;
