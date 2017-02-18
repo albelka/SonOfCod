@@ -20,5 +20,7 @@ namespace SonOfCod.Tests.ControllerTests
             //Assert
             Assert.IsType<ViewResult>(result);
         }
+
+        
     }
 }

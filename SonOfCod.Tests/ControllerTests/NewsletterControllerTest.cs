@@ -33,6 +33,21 @@ namespace SonOfCod.Tests.ControllerTests
             //Assert
             Assert.IsType<ViewResult>(result);
         }
+
+        [Fact]
+        public void Mailing_List_Test()
+        {
+            //Arrange
+            var newsletter = new Newsletter();
+            newsletter.Email = "anne@gmail.com";
+
+
+            //Act
+            var result = newsletter.Email;
+
+            //Assert
+            Assert.Equal("anne@gmail.com", result);
+        }
     }
 }
 
