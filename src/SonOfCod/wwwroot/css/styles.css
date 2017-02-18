@@ -29,7 +29,18 @@ div.marketingCard {
     border-radius: 5px;
 }
 
+.marketingTitle {
+    background-color: darkblue;
+    color: lightgreen;
+    font-family: cursive;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    width: 600px;
+}
+
 .navbar {
     background: radial-gradient(rgba(63, 127, 191, 0.5),rgba(180, 68, 79, 0.1));
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }

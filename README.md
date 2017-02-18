@@ -29,6 +29,8 @@ Then in the command prompt write:
 
 Now run Son of Cod in Visual Studio to view it in any modern browser.
 
+**For full access login as "Anne" with password "3"**
+
 ## Technologies Used
 * C#
 * VisualStudio
