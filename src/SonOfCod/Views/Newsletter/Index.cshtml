@@ -12,12 +12,13 @@
 @if (User.IsInRole("Admin"))
 {
    <h3>Current subscribers</h3>
+   <hr />
     <div>
         @foreach (var subscriber in Model)
         {
-            <p>
+            <h4>
                @Html.DisplayFor(model => subscriber.PurchaserName) <span>at: </span> @Html.DisplayFor(model => subscriber.Email)          
-            </p>
+            </h4>
         }
     </div>
 }

@@ -3,7 +3,12 @@
 }
 
 .navbar-brand img {
-    width: 100px;
+    
+    width: 200px;
+}
+
+.navbar-brand img:hover {
+    width: 210px;
 }
 
 h1 {
@@ -15,4 +20,16 @@ div.boat img {
  margin-left: auto;
  margin-right: auto;
  border-radius: 5px;
+}
+
+div.marketingCard {
+    background: radial-gradient(rgba(63, 127, 191, 0.5),rgba(180, 68, 79, 0.1));
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.navbar {
+    background: radial-gradient(rgba(63, 127, 191, 0.5),rgba(180, 68, 79, 0.1));
+    margin-bottom: 50px;
 }

@@ -1,6 +1,6 @@
-﻿$(document).ready(function () {
+﻿//$(document).ready(function () {
 
-    $('.carousel').carousel({
-        intervak: 2000
-    });
-});
+//    $('.carousel').carousel({
+//        interval: 2000
+//    });
+//});
